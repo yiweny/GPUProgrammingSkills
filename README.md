@@ -7,7 +7,7 @@ The repository root is the skill directory, following the same clone-and-use pat
 ## Install
 
 ```bash
-git clone https://github.com/xai-org/GPUProgrammingSkills.git ~/.grok/skills/gpu-programming
+git clone https://github.com/yiweny/GPUProgrammingSkills.git ~/.grok/skills/gpu-programming
 ```
 
 Grok Build will load `SKILL.md` from the clone root. Invoke it with `/gpu-programming` or ask a GPU programming question that matches its description.
