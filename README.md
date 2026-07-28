@@ -26,13 +26,20 @@ All reference material lives in `references/guides/<topic>/GUIDE.md`. The root `
 
 ## Scope
 
-Included content must work as standalone GPU programming guidance. This repository intentionally excludes:
+This skill covers hands-on GPU software development:
 
-- Babysitter JavaScript processes and workflow orchestration
-- Babysitter agent definitions and role metadata
-- Backlogs, process catalogs, and specialization planning documents
-- Babysitter configuration examples, SDK imports, and process-integration sections
-- General agent tooling and GPU cluster provisioning workflows
+- Writing, compiling, debugging, profiling, and optimizing GPU kernels
+- CUDA, HIP/ROCm, OpenCL, Vulkan compute, Triton, and CUTLASS
+- GPU memory, synchronization, warp primitives, parallel algorithms, stencils, and convolutions
+- cuBLAS, cuDNN, TensorRT, CUDA Graphs, and NVENC/NVDEC integration
+- Single-node multi-GPU programming and NCCL/RCCL collective communication
+- Reproducible GPU benchmarking and performance-regression analysis
+
+Out of scope:
+
+- GPU cluster provisioning, cloud infrastructure, schedulers, and fleet operations
+- General machine-learning model design without GPU implementation or performance work
+- Graphics rendering pipelines unrelated to compute workloads
 
 ## Verification
 
